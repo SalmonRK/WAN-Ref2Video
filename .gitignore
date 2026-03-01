@@ -1,0 +1,41 @@
+# WAN-Ref2Video GitHub .gitignore
+
+# Large output files
+output/*.mp4
+cron_status/*.json
+*.mp4
+logs/*.log
+
+# Sensitive files
+.env
+.env.*
+.env.local
+api_key.txt
+example.env
+
+# Test reference files (user must upload)
+test/reference_char1.jpg
+test/reference_char1.mp4
+test/reference_*.jpg
+test/reference_*.mp4
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
