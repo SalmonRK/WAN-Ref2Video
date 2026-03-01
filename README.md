@@ -63,30 +63,11 @@ python3 wan_r2v_cloudinary.py \
 
 ---
 
-## 🔐 Security
-
-**.gitignore includes:**
-```
-output/
-cron_status/
-logs/
-*.env
-.env.*
-```
-
-❌ **Never commit:**
-- Images
-- Videos  
-- `.env` files
-- API keys
-
----
-
 ## 📝 Documentation
 
-- **[SKILL.md](SKILL.md)** - Full technical documentation
-- **[CRON.md](CRON.md)** - Cron job setup guide
-- **[INSTALL.md](INSTALL.md)** - Installation steps
+- **[SKILL.md](../SKILL.md)** - Full technical documentation
+- **[CRON.md](../CRON.md)** - Cron job setup guide
+- **[INSTALL.md](../INSTALL.md)** - Installation steps
 
 ---
 
